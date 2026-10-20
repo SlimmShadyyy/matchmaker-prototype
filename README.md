@@ -2,7 +2,7 @@
 
 An AI-assisted matchmaking dashboard built for **The Date Crew's Full Stack Intern Assessment**. A transparent, rule-based matching engine ranks candidates; an AI layer adds a bounded second opinion and drafts introduction emails; a matchmaker manages clients, notes, shortlists and sent introductions, all persisted server-side.
 
-**Live demo:** _add your Vercel URL_ · **Repository:** _add your GitHub URL_
+**Live demo:** [Vercel link](https://matchmaker-prototype-v7k3.vercel.app/) · **Repository:** [_GitHub URL_](https://github.com/SlimmShadyyy/matchmaker-prototype)
 
 **Demo login:** `simran@thedatecrew.com` / `tdc-matchmaker-2026`
 (Credentials are verified on the server and a signed, httpOnly session cookie is issued. It is a single demo account, not a full user system.)
