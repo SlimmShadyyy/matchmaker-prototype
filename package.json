@@ -4,23 +4,34 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "api": "tsx watch server/start.ts",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "start:api": "tsx server/start.ts",
+    "lint": "eslint",
+    "check:matches": "tsx scripts/check-matches.ts"
   },
   "dependencies": {
+    "@next/env": "16.4.2",
+    "@supabase/supabase-js": "^2.118.0",
+    "clsx": "^2.1.1",
+    "groq-sdk": "^1.6.0",
+    "lucide-react": "^1.59.0",
     "next": "16.4.2",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "tailwind-merge": "^3.7.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "concurrently": "^10.0.6",
     "eslint": "^9",
-    "eslint-config-next": "16.4.2",
+    "eslint-config-next": "^16.4.2",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   }
 }

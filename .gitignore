@@ -32,10 +32,16 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
-
+.env.Local
+.env.*
 # vercel
 .vercel
+.data/
+
+# Local file-backed mock database
+/data/matchmaker-db.json
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+data/tdc-ai-cache.json
